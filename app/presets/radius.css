@@ -1,0 +1,34 @@
+/*
+ * Radius presets — H5 Ayak A
+ * Kaynak: docs/h5-presets-draft.md, packages/shared/src/presets.ts
+ *
+ * Kullanım: <html data-radius="radius-soft">
+ */
+
+html[data-radius='radius-sharp'] {
+  --radius-button: 2px;
+  --radius-card: 2px;
+  --radius-input: 2px;
+  --radius-pill: 4px;
+}
+
+html[data-radius='radius-soft'] {
+  --radius-button: 8px;
+  --radius-card: 8px;
+  --radius-input: 6px;
+  --radius-pill: 999px;
+}
+
+html[data-radius='radius-rounded'] {
+  --radius-button: 16px;
+  --radius-card: 16px;
+  --radius-input: 12px;
+  --radius-pill: 999px;
+}
+
+html[data-radius='radius-pill'] {
+  --radius-button: 999px;
+  --radius-card: 24px;
+  --radius-input: 999px;
+  --radius-pill: 999px;
+}

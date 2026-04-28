@@ -1,0 +1,22 @@
+node_modules
+.next
+.turbo
+dist
+out
+
+# Ortam
+.env
+.env.local
+.env.*.local
+
+# Sistem
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
+npm-debug.log*
+
+# TypeScript incremental
+*.tsbuildinfo
+next-env.d.ts

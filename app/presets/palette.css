@@ -1,0 +1,259 @@
+/*
+ * Palette presets — H5 Ayak A (18 palette)
+ * Kaynak: docs/h5-presets-draft.md, packages/shared/src/presets.ts
+ *
+ * Kullanım: <html data-palette="palette-law-navy">
+ * Her palette 9 token içerir: primary, primary-hover, secondary, accent,
+ * bg, surface, text, text-muted, border.
+ * WCAG AA contrast (≥4.5:1) tasarım aşamasında kontrol edildi.
+ */
+
+/* =========================================================================
+ * Hukuk / Kurumsal (3)
+ * ========================================================================= */
+
+html[data-palette='palette-law-emerald'] {
+  --color-primary: #1F4E46;
+  --color-primary-hover: #18403A;
+  --color-secondary: #E6DCC3;
+  --color-accent: #C9A959;
+  --color-bg: #FAF8F3;
+  --color-surface: #FFFFFF;
+  --color-text: #1A1A1A;
+  --color-text-muted: #6B6B6B;
+  --color-border: #E8E4D8;
+}
+
+html[data-palette='palette-law-navy'] {
+  --color-primary: #1B2B4A;
+  --color-primary-hover: #14213A;
+  --color-secondary: #F0F2F5;
+  --color-accent: #8A8D91;
+  --color-bg: #FFFFFF;
+  --color-surface: #F8F9FB;
+  --color-text: #101522;
+  --color-text-muted: #5A6178;
+  --color-border: #E2E5EA;
+}
+
+html[data-palette='palette-law-burgundy'] {
+  --color-primary: #6B1F2E;
+  --color-primary-hover: #551826;
+  --color-secondary: #F3ECE3;
+  --color-accent: #3E2A20;
+  --color-bg: #FAF6F0;
+  --color-surface: #FFFFFF;
+  --color-text: #1A1410;
+  --color-text-muted: #6F6056;
+  --color-border: #EAE0D2;
+}
+
+/* =========================================================================
+ * Beauty / Wellness (3)
+ * ========================================================================= */
+
+html[data-palette='palette-beauty-peach'] {
+  --color-primary: #E8957E;
+  --color-primary-hover: #D97A62;
+  --color-secondary: #FDF0E9;
+  --color-accent: #C9485B;
+  --color-bg: #FFF8F2;
+  --color-surface: #FFFFFF;
+  --color-text: #2A1F1A;
+  --color-text-muted: #7D6B5E;
+  --color-border: #F5E4D4;
+}
+
+html[data-palette='palette-beauty-rose'] {
+  --color-primary: #B85F7A;
+  --color-primary-hover: #9E4A64;
+  --color-secondary: #F9E5EB;
+  --color-accent: #5E3142;
+  --color-bg: #FFF5F7;
+  --color-surface: #FFFFFF;
+  --color-text: #2B1A21;
+  --color-text-muted: #805E68;
+  --color-border: #F0D4DC;
+}
+
+html[data-palette='palette-beauty-sage'] {
+  --color-primary: #8A9E7E;
+  --color-primary-hover: #6F8564;
+  --color-secondary: #EEE8D9;
+  --color-accent: #4A5C40;
+  --color-bg: #FAF8F0;
+  --color-surface: #FFFFFF;
+  --color-text: #1F2419;
+  --color-text-muted: #6F7366;
+  --color-border: #E1DCC8;
+}
+
+/* =========================================================================
+ * SaaS / Tech (3)
+ * ========================================================================= */
+
+html[data-palette='palette-saas-purple'] {
+  --color-primary: #6366F1;
+  --color-primary-hover: #4F52DB;
+  --color-secondary: #F0F0FA;
+  --color-accent: #EC4899;
+  --color-bg: #FFFFFF;
+  --color-surface: #FAFAFC;
+  --color-text: #0F0F1A;
+  --color-text-muted: #64647D;
+  --color-border: #E4E4EC;
+}
+
+html[data-palette='palette-saas-emerald'] {
+  --color-primary: #10B981;
+  --color-primary-hover: #0D9668;
+  --color-secondary: #F0FAF6;
+  --color-accent: #064E3B;
+  --color-bg: #FFFFFF;
+  --color-surface: #F9FAFB;
+  --color-text: #101520;
+  --color-text-muted: #5A6273;
+  --color-border: #E5E7EB;
+}
+
+html[data-palette='palette-saas-cobalt'] {
+  --color-primary: #2563EB;
+  --color-primary-hover: #1D4CCC;
+  --color-secondary: #EFF4FE;
+  --color-accent: #F97316;
+  --color-bg: #FFFFFF;
+  --color-surface: #F8FAFD;
+  --color-text: #0A1020;
+  --color-text-muted: #5A6680;
+  --color-border: #DFE5EE;
+}
+
+/* =========================================================================
+ * Restoran / Gıda (2)
+ * ========================================================================= */
+
+html[data-palette='palette-food-terracotta'] {
+  --color-primary: #B04A2F;
+  --color-primary-hover: #953D25;
+  --color-secondary: #F5EAD8;
+  --color-accent: #6B7D3F;
+  --color-bg: #FFF9EE;
+  --color-surface: #FFFFFF;
+  --color-text: #2A1810;
+  --color-text-muted: #7A6A58;
+  --color-border: #EBDDC4;
+}
+
+/* Dark mode palette — diğerlerinden farklı olarak bg koyu */
+html[data-palette='palette-food-charcoal'] {
+  --color-primary: #D4A456;
+  --color-primary-hover: #B88D3E;
+  --color-secondary: #2A2520;
+  --color-accent: #EFE5D0;
+  --color-bg: #1A1612;
+  --color-surface: #242020;
+  --color-text: #F5EFE3;
+  --color-text-muted: #A39886;
+  --color-border: #3A342D;
+  color-scheme: dark;
+}
+
+/* =========================================================================
+ * Sağlık / Klinik (2)
+ * ========================================================================= */
+
+html[data-palette='palette-health-teal'] {
+  --color-primary: #0F766E;
+  --color-primary-hover: #0B5D56;
+  --color-secondary: #E6F4F2;
+  --color-accent: #155E75;
+  --color-bg: #FFFFFF;
+  --color-surface: #F7FAFA;
+  --color-text: #0F1E1C;
+  --color-text-muted: #5C7370;
+  --color-border: #DEEAE8;
+}
+
+html[data-palette='palette-health-blush'] {
+  --color-primary: #E96B8C;
+  --color-primary-hover: #D25173;
+  --color-secondary: #FCE9EF;
+  --color-accent: #1F3B5C;
+  --color-bg: #FFFBFC;
+  --color-surface: #FFFFFF;
+  --color-text: #1A0E14;
+  --color-text-muted: #7D6068;
+  --color-border: #F5DCE4;
+}
+
+/* =========================================================================
+ * Eğitim / Danışmanlık (2)
+ * ========================================================================= */
+
+html[data-palette='palette-edu-indigo'] {
+  --color-primary: #4338CA;
+  --color-primary-hover: #3730A3;
+  --color-secondary: #EEF0FB;
+  --color-accent: #CA8A04;
+  --color-bg: #FFFFFF;
+  --color-surface: #F9FAFC;
+  --color-text: #0F1020;
+  --color-text-muted: #5C5F73;
+  --color-border: #E3E5ED;
+}
+
+html[data-palette='palette-edu-olive'] {
+  --color-primary: #6B7A3F;
+  --color-primary-hover: #546231;
+  --color-secondary: #F1EDDB;
+  --color-accent: #B04A2F;
+  --color-bg: #FAF7EC;
+  --color-surface: #FFFFFF;
+  --color-text: #1F1F15;
+  --color-text-muted: #726F5C;
+  --color-border: #E3DFC8;
+}
+
+/* =========================================================================
+ * Fitness / Enerji (2)
+ * ========================================================================= */
+
+html[data-palette='palette-fitness-crimson'] {
+  --color-primary: #DC2626;
+  --color-primary-hover: #B91C1C;
+  --color-secondary: #1A1A1A;
+  --color-accent: #FAFAFA;
+  --color-bg: #FFFFFF;
+  --color-surface: #F5F5F5;
+  --color-text: #0A0A0A;
+  --color-text-muted: #525252;
+  --color-border: #E4E4E4;
+}
+
+html[data-palette='palette-fitness-mono'] {
+  --color-primary: #0A0A0A;
+  --color-primary-hover: #1A1A1A;
+  --color-secondary: #F4F4F4;
+  --color-accent: #FACC15;
+  --color-bg: #FFFFFF;
+  --color-surface: #FAFAFA;
+  --color-text: #0A0A0A;
+  --color-text-muted: #525252;
+  --color-border: #D4D4D4;
+}
+
+/* =========================================================================
+ * Universal / Neutral (1)
+ * ========================================================================= */
+
+html[data-palette='palette-neutral-slate'] {
+  --color-primary: #334155;
+  --color-primary-hover: #1E293B;
+  --color-secondary: #F1F5F9;
+  --color-accent: #2563EB;
+  --color-bg: #FFFFFF;
+  --color-surface: #F8FAFC;
+  --color-text: #0F172A;
+  --color-text-muted: #64748B;
+  --color-border: #E2E8F0;
+}

@@ -1,0 +1,27 @@
+/* Admin shell — site design tokenlarından bağımsız. System font + nötr palette.
+ * Root layout'un globals.css'inden sonra yüklendiği için site body stil'lerini
+ * .admin-theme wrapper'ı üzerinden override ediyor. */
+
+.admin-theme {
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.admin-theme h1,
+.admin-theme h2,
+.admin-theme h3,
+.admin-theme h4 {
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.admin-theme input,
+.admin-theme select,
+.admin-theme textarea,
+.admin-theme button {
+  font-family: inherit;
+}

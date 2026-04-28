@@ -1,0 +1,27 @@
+/*
+ * Grid presets — H5 Ayak A
+ * Kaynak: docs/h5-presets-draft.md, packages/shared/src/presets.ts
+ *
+ * Kullanım: <html data-grid="grid-balanced">
+ */
+
+html[data-grid='grid-tight'] {
+  --container-max: 1200px;
+  --columns: 12;
+  --gutter: 16px;
+  --section-padding-x: 24px;
+}
+
+html[data-grid='grid-balanced'] {
+  --container-max: 1280px;
+  --columns: 12;
+  --gutter: 24px;
+  --section-padding-x: 32px;
+}
+
+html[data-grid='grid-airy'] {
+  --container-max: 1120px;
+  --columns: 8;
+  --gutter: 40px;
+  --section-padding-x: 48px;
+}

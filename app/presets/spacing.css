@@ -1,0 +1,30 @@
+/*
+ * Spacing presets — H5 Ayak A
+ * Kaynak: docs/h5-presets-draft.md, packages/shared/src/presets.ts
+ *
+ * Kullanım: <html data-spacing="space-default">
+ */
+
+html[data-spacing='space-compact'] {
+  --section-gap-y: 48px;
+  --element-gap: 12px;
+  --card-padding: 16px;
+  --button-padding-y: 8px;
+  --button-padding-x: 16px;
+}
+
+html[data-spacing='space-default'] {
+  --section-gap-y: 80px;
+  --element-gap: 20px;
+  --card-padding: 24px;
+  --button-padding-y: 12px;
+  --button-padding-x: 24px;
+}
+
+html[data-spacing='space-generous'] {
+  --section-gap-y: 120px;
+  --element-gap: 32px;
+  --card-padding: 40px;
+  --button-padding-y: 16px;
+  --button-padding-x: 32px;
+}

@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/*
+ * H5 preset havuzu — data-* attribute ile aktive olan CSS variable blokları.
+ * Scaffolder v2 (H5 Gün 2+) <html>'e data-typography/-grid/-spacing/-radius/
+ * -palette attribute'ları koyunca ilgili blok uygulanır. Bu import'lar
+ * dormant — henüz aktive edilmediği için mevcut :root fallback değerleriyle
+ * çakışmıyor.
+ */
+@import "./presets/typography.css";
+@import "./presets/grid.css";
+@import "./presets/spacing.css";
+@import "./presets/radius.css";
+@import "./presets/palette.css";
+
+/*
+ * Design tokens CSS variable olarak inject edilir.
+ * Scaffolder bu dosyanın :root bloğunu tokens'la üzerine yazar.
+ * Aşağıdaki değerler varsayılan (tokens yoksa fallback).
+ */
+:root {
+  --color-primary: #6B1F2E;
+  --color-secondary: #2A1518;
+  --color-accent: #C9A87C;
+  --color-background: #FAF3F0;
+  --color-foreground: #1F1416;
+  --color-muted: #8A6F73;
+  --color-border: #E8D5D0;
+
+  --font-heading: Fraunces, system-ui, sans-serif;
+  --font-body: Inter, system-ui, sans-serif;
+  --font-heading-weight: 400;
+  --font-body-weight: 400;
+
+  --radius: 0.25rem;
+  --container-width: 1200px;
+}
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-muted: var(--color-muted);
+  --color-border: var(--color-border);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --radius: var(--radius);
+}
+
+/*
+ * H5 Ayak A Gün 4 — legacy ↔ preset alias köprüsü.
+ * :root'tan SONRA tanımlı + html[data-*] specificity (1,1 > :root'un 1,0).
+ * Preset aktif iken <html data-palette="..."> legacy isimleri preset
+ * namespace'ine yönlendirir. Preset YOKSA bu blok match etmez, :root değerleri
+ * çalışır. Ayak B'de komponentler preset isimlerine geçince kaldırılacak.
+ */
+html[data-palette] {
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-text);
+  --color-muted: var(--color-text-muted);
+}
+html[data-radius] {
+  --radius: var(--radius-button);
+}
+html[data-typography] {
+  --font-heading: var(--font-display);
+}
+
+html, body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+  letter-spacing: -0.02em;
+}
+
+* { border-color: var(--color-border); }
+
+/* Utility helpers */
+.container-custom {
+  max-width: var(--container-width);
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
