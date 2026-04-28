@@ -1,12 +1,12 @@
 import type { ContentPlan } from './content-types';
 
 // Bu dosya frontend-builder tarafından güncellendi (polish sonrası).
-// Son güncelleme: 2026-04-28T19:01:52.390Z
+// Son güncelleme: 2026-04-28T19:06:21.154Z
 export const content: ContentPlan = {
   "meta": {
-    "companyName": "Reine",
+    "companyName": "Atelier Vinora",
     "tagline": "Nişantaşı'nın en sessiz lüksü",
-    "description": "Reine, İstanbul Nişantaşı'nda cilt, saç ve el bakımında editorial lüks sunan butik güzellik atölyesi. Randevunuzu alın.",
+    "description": "Atelier Vinora, İstanbul Nişantaşı'nda cilt, saç ve el bakımında editorial lüks sunan butik güzellik atölyesi. Randevunuzu alın.",
     "language": "tr",
     "navigation": [
       {
@@ -31,7 +31,7 @@ export const content: ContentPlan = {
       }
     ],
     "footer": {
-      "about": "Reine, Nişantaşı'nın kalbinde her detayın incelikle düşünüldüğü butik bir güzellik atölyesidir. Misafirlerimizi bir salon değil, kendine ait bir ritüel alanı karşılar.",
+      "about": "Atelier Vinora, Nişantaşı'nın kalbinde her detayın incelikle düşünüldüğü butik bir güzellik atölyesidir. Misafirlerimizi bir salon değil, kendine ait bir ritüel alanı karşılar.",
       "columns": [
         {
           "title": "Atölye",
@@ -85,7 +85,7 @@ export const content: ContentPlan = {
           ]
         }
       ],
-      "copyright": "© 2026 Reine. Tüm hakları saklıdır.",
+      "copyright": "© 2026 Atelier Vinora. Tüm hakları saklıdır.",
       "social": [
         {
           "platform": "instagram",
@@ -103,14 +103,14 @@ export const content: ContentPlan = {
       "slug": "home",
       "title": "Ana Sayfa",
       "metaTitle": "Butik Güzellik Atölyesi — Nişantaşı",
-      "metaDescription": "Reine, Nişantaşı'nda cilt, saç ve el bakımında editorial lüks sunan butik güzellik atölyesi. Randevunuzu alın.",
+      "metaDescription": "Atelier Vinora, Nişantaşı'nda cilt, saç ve el bakımında editorial lüks sunan butik güzellik atölyesi. Randevunuzu alın.",
       "sections": [
         {
           "type": "hero",
-          "headline": "Sessizliğin içinde, size ait bir ışıltı",
-          "subheadline": "Nişantaşı'nın kalbinde, her detayı incelikle örülmüş bir bakım ritüeli sizi bekliyor.",
+          "headline": "Sessiz lüksün tam ortasında, size ayrılmış bir saat",
+          "subheadline": "Nişantaşı'nın kalbinde, her detayın incelikle düşünüldüğü bir bakım atölyesi misafirlerini bekliyor.",
           "primaryCta": {
-            "label": "Randevunuzu Alın",
+            "label": "Yerinizi Ayırtın",
             "href": "/contact"
           },
           "variant": "centered",
@@ -129,7 +129,7 @@ export const content: ContentPlan = {
           "type": "about",
           "headline": "Bir atölye, bir ritüel",
           "body": [
-            "Reine, güzelliği bir prosedür olarak değil, derin bir özen pratiği olarak tanımlar. Her randevu, misafirimizin günlük ritmine sessizce dokunan, özenle kurgulanmış bir deneyimdir.",
+            "Atelier Vinora, güzelliği bir prosedür olarak değil, derin bir özen pratiği olarak tanımlar. Her randevu, misafirimizin günlük ritmine sessizce dokunan, özenle kurgulanmış bir deneyimdir.",
             "Nişantaşı'nın dar sokaklarında saklı bu atölyede zaman yavaşlar; elleriniz, cildiniz ve saçlarınız yalnızca sizin için hazırlanmış bir ritüelle karşılaşır."
           ],
           "variant": "with-image",
@@ -146,7 +146,7 @@ export const content: ContentPlan = {
         },
         {
           "type": "feature-grid",
-          "headline": "Reine farkı nedir?",
+          "headline": "Atelier Vinora farkı nedir?",
           "items": [
             {
               "icon": "Sparkles",
@@ -236,10 +236,10 @@ export const content: ContentPlan = {
         },
         {
           "type": "cta",
-          "headline": "Sizi bekleyen saat, şimdi ayırılabilir",
-          "subheadline": "Nişantaşı'nın en sessiz lüksü — yalnızca size ayrılmış bir ritüel.",
+          "headline": "Sessizliği hak eden bir saat",
+          "subheadline": "Nişantaşı'nın kalbinde, yalnızca size ayrılmış bir ritüel sizi bekliyor.",
           "primaryCta": {
-            "label": "Randevunuzu Alın",
+            "label": "Yerinizi Ayırın",
             "href": "/contact"
           },
           "variant": "inline"
@@ -250,19 +250,19 @@ export const content: ContentPlan = {
       "slug": "about",
       "title": "Hakkımızda",
       "metaTitle": "Hakkımızda — Atölye Hikayemiz",
-      "metaDescription": "Reine'nin kuruluş hikayesi, felsefesi ve Nişantaşı'nda butik güzellik anlayışı. Her detayın özenle düşünüldüğü atölye.",
+      "metaDescription": "Atelier Vinora'nin kuruluş hikayesi, felsefesi ve Nişantaşı'nda butik güzellik anlayışı. Her detayın özenle düşünüldüğü atölye.",
       "sections": [
         {
           "type": "hero",
           "headline": "Güzellik bir ritüel olduğunda anlam kazanır",
-          "subheadline": "Reine'yi var eden inanç: her misafir, kendine ait bir deneyimi hak eder.",
+          "subheadline": "Atelier Vinora'yi var eden inanç: her misafir, kendine ait bir deneyimi hak eder.",
           "variant": "centered"
         },
         {
           "type": "about",
-          "headline": "Neden Reine?",
+          "headline": "Neden Atelier Vinora?",
           "body": [
-            "Reine, zincir salonların hızına ve gürültüsüne alternatif olarak doğdu. Kurucumuz, güzellik bakımının yalnızca teknik bir süreç olmadığına, aynı zamanda derin bir özen ve dinginlik pratiği olduğuna inanır.",
+            "Atelier Vinora, zincir salonların hızına ve gürültüsüne alternatif olarak doğdu. Kurucumuz, güzellik bakımının yalnızca teknik bir süreç olmadığına, aynı zamanda derin bir özen ve dinginlik pratiği olduğuna inanır.",
             "Her randevuda misafirimizin zamanını, tercihlerini ve beklentilerini merkeze alıyoruz. Atölyemiz, Nişantaşı'nın estetik dokusundan ilham alarak tasarlandı; sade, ısınımlı ve her köşesinde özen hissettiren bir alan."
           ],
           "variant": "with-image",
@@ -315,7 +315,7 @@ export const content: ContentPlan = {
       "slug": "services",
       "title": "Hizmetler",
       "metaTitle": "Hizmetler — Atölye Ritüelleri",
-      "metaDescription": "Reine'de cilt bakımı, saç ritüeli, el ve tırnak bakımı ile gelin deneyimi. Nişantaşı'nda butik güzellik atölyesi.",
+      "metaDescription": "Atelier Vinora'de cilt bakımı, saç ritüeli, el ve tırnak bakımı ile gelin deneyimi. Nişantaşı'nda butik güzellik atölyesi.",
       "sections": [
         {
           "type": "hero",
@@ -421,8 +421,8 @@ export const content: ContentPlan = {
     {
       "slug": "contact",
       "title": "Randevu",
-      "metaTitle": "Randevu Alın — Reine Atölyesi",
-      "metaDescription": "Reine Nişantaşı'nda randevu alın. Cilt, saç ve el bakımı için atölyemizi ziyaret edin. Size en uygun saati birlikte belirleyelim.",
+      "metaTitle": "Randevu Alın — Atelier Vinora Atölyesi",
+      "metaDescription": "Atelier Vinora Nişantaşı'nda randevu alın. Cilt, saç ve el bakımı için atölyemizi ziyaret edin. Size en uygun saati birlikte belirleyelim.",
       "sections": [
         {
           "type": "hero",
@@ -448,7 +448,7 @@ export const content: ContentPlan = {
       "slug": "team",
       "title": "Ekibimiz",
       "metaTitle": "Ekibimiz — Atölyenin Elleri",
-      "metaDescription": "Reine ekibi: cilt bakımı, saç ve tırnak alanında uzmanlaşmış, deneyimli güzellik uzmanlarıyla tanışın.",
+      "metaDescription": "Atelier Vinora ekibi: cilt bakımı, saç ve tırnak alanında uzmanlaşmış, deneyimli güzellik uzmanlarıyla tanışın.",
       "sections": [
         {
           "type": "hero",

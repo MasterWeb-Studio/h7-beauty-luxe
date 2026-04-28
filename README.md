@@ -1,8 +1,8 @@
-# Reine
+# Atelier Vinora
 
 Nişantaşı'nın en sessiz lüksü
 
-Reine, İstanbul Nişantaşı'nda cilt, saç ve el bakımında editorial lüks sunan butik güzellik atölyesi. Randevunuzu alın.
+Atelier Vinora, İstanbul Nişantaşı'nda cilt, saç ve el bakımında editorial lüks sunan butik güzellik atölyesi. Randevunuzu alın.
 
 ## Başlangıç
 
@@ -25,7 +25,7 @@ npm run start
 Proje içinde `/admin` panelinden dashboard ve içerik editörüne erişebilirsin.
 
 - **URL:** http://localhost:3000/admin/login
-- **Şifre:** `52f9e920-3fad-4897-9be3-922cca03dbd3`
+- **Şifre:** `2999cd47-7375-4c4a-9806-a98a33f211a7`
 
 Bu şifreyi güvenli yere kaydedin — kaybolursa `.env.local` dosyasındaki `ADMIN_PASSWORD` satırını değiştirip yeniden girebilirsiniz.
 
